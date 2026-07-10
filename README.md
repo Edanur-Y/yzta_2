@@ -1,4 +1,4 @@
-![pipeline](pipeline.png)
+![pipeline](https://raw.githubusercontent.com/Edanur-Y/yzta_2/refs/heads/main/pipeline.png)
 PostgreSQL’e geçiş gerekli. `pgvector` extension   
 User id partitioned user database
 
