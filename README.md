@@ -69,9 +69,10 @@ Model; padded 1024x1024 görsele mask çıktısı verdikten sonra görseli, orji
 
 # **Kombin Segmentation ve Etiketleme:**
 
-## Kıyafet takibi için uygun seçimler:
+## Hugging Face modelleri:
 
 * [segformer\_b2\_clothes](https://huggingface.co/mattmdjaga/segformer_b2_clothes) \- low efor, light model, big community(az sorun)
+  * Demo: [Segment-Clothing](https://github.com/TonyAssi/Segment-Clothing)
 
 
   * Preprocessing:  
@@ -104,6 +105,13 @@ Model; padded 1024x1024 görsele mask çıktısı verdikten sonra görseli, orji
 
         * Resize algorithm: resample:2 \- High-quality downscaling, sharper edges  
         * can introduce a thin band of slightly wrong-colored pixels right at the boundary.
+       
+## Trained PyTorch modelleri:
+
+* [human-parser-comfyui-node](https://github.com/cozymantis/human-parser-comfyui-node)
+* [Human-Parsing-PyTorch](https://github.com/Vrushank264/Human-Parsing-PyTorch)
+  * Desen ve renk de etiketliyor.
+
 
 ## Diğer seçenekler:
 
